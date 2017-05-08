@@ -1,5 +1,5 @@
 import { Observable } from "rxjs";
-import { load, loadWithFetch } from "./loader";
+import { load } from "./loader";
 
 const URL = 'http://tc1.sms.fortaleza.ce.gov.br/simda/dengue/';
 //let params = { mapa: true, ano: 2016, mes: 0, sem_pri: 201652, classifin: 0, criterio: 0, evolucao: 0, regional: 0, id_bairro: 0, id_unidade: 0 }
@@ -10,7 +10,7 @@ let params = {
     ano: YEAR,
     sem_pri: YEAR + '01'
 }
-const WEEKS = 3;
+const WEEKS = 1;
 const completeUrl = URL + 'mapaJSON?mapa=' + params.mapa + '&ano=' + params.ano + '&sem_pri=' + params.ano;
 function showCollection(request) {
     request

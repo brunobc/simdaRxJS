@@ -8,7 +8,6 @@ const GeometrySchema = new Schema({
 
 const PropertiesSchema = new Schema({
     AGRAVO: { type: String, required: true }
-
 });
 
 const FeatureSchema = new Schema({

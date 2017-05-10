@@ -7,68 +7,47 @@ import 'rxjs/add/observable/throw';
 import 'rxjs/add/operator/map'; 
 import 'rxjs/add/operator/catch';
 
-import { ICustomer, IOrder, IState, IPagedResults } from '../shared/interfaces';
+import { IFeature } from '../shared/interfaces';
 
 @Injectable()
 export class DataService {
   
-    baseUrl: string = '/api/customers';
+    baseUrl: string = '/api/features';
 
     constructor(private http: Http) { 
 
     }
     
-    getCustomers() : Observable<ICustomer[]> {
+    getFeatures() : Observable<IFeature[]> {
         return this.http.get(this.baseUrl)
                    .map((res: Response) => {
-                       let customers = res.json();
-                       this.calculateCustomersOrderTotal(customers);
-                       return customers;
+                       let features = res.json();
+                       return features;
                    })
                    .catch(this.handleError);
     }
 
-    getCustomersPage(page: number, pageSize: number) : Observable<IPagedResults<ICustomer[]>> {
-        return this.http.get(`${this.baseUrl}/page/${page}/${pageSize}`)
-                    .map((res: Response) => {
-                        const totalRecords = +res.headers.get('x-inlinecount');
-                        let customers = res.json();
-                        this.calculateCustomersOrderTotal(customers);
-                        return {
-                            results: customers,
-                            totalRecords: totalRecords
-                        };
-                    })
-                    .catch(this.handleError);
-    }
-    
-    getCustomer(id: string) : Observable<ICustomer> {
-        return this.http.get(this.baseUrl + '/' + id)
-                    .map((res: Response) => res.json())
-                    .catch(this.handleError);
-    }
-
-    insertCustomer(customer: ICustomer) : Observable<ICustomer> {
-        return this.http.post(this.baseUrl, customer)
+    insertFeature(feature: IFeature) : Observable<IFeature> {
+        return this.http.post(this.baseUrl, feature)
                    .map((res: Response) => {
                        const data = res.json();
-                       console.log('insertCustomer status: ' + data.status);
-                       return data.customer;
+                       console.log('insertFeature status: ' + data.status);
+                       return data.feature;
                    })
                    .catch(this.handleError);
     }
    
-    updateCustomer(customer: ICustomer) : Observable<ICustomer> {
-        return this.http.put(this.baseUrl + '/' + customer._id, customer) 
+    updateFeature(feature: IFeature) : Observable<IFeature> {
+        return this.http.put(this.baseUrl + '/' + feature._id, feature) 
                    .map((res: Response) => {
                        const data = res.json();
-                       console.log('updateCustomer status: ' + data.status);
-                       return data.customer;
+                       console.log('updateFeature status: ' + data.status);
+                       return data.feature;
                    })
                    .catch(this.handleError);
     }
 
-    deleteCustomer(id: string) : Observable<boolean> {
+    deleteFeature(id: string) : Observable<boolean> {
         return this.http.delete(this.baseUrl + '/' + id)
                    .map((res: Response) => res.json().status)
                    .catch(this.handleError);
@@ -82,24 +61,6 @@ export class DataService {
             headers: new Headers({ 'x-xsrf-token': csrfToken })
         });
         return options;
-    }
-    
-    getStates(): Observable<IState[]> {
-        return this.http.get('/api/states')
-                   .map((res: Response) => res.json())
-                   .catch(this.handleError);
-    }
-
-    calculateCustomersOrderTotal(customers: ICustomer[]) {
-        for (let customer of customers) {
-            if (customer && customer.orders) {
-                let total = 0;
-                for (let order of customer.orders) {
-                    total += (order.price * order.quantity);
-                }
-                customer.orderTotal = total;
-            }
-        }
     }
     
     private handleError(error: any) {

@@ -1,4 +1,4 @@
-const featuteRepo = require('../../../lib/featuresRepository'),
+const featuteRepo = require('../../lib/featuresRepository'),
     util = require('util');
 
 class FeaturesController {

@@ -1,4 +1,4 @@
-<div class="customers view indent">
+<div class="features view indent">
     <div class="container">
         <header>
             <h3>
@@ -14,11 +14,11 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <a class="btn btn-default" [routerLink]="['/customers', '0']">Add New Customer</a>
+                <a class="btn btn-default" [routerLink]="['/features', '0']">Add New Feature</a>
             </div>
         </div>
     
-        <customers-grid [customers]="filteredCustomers"></customers-grid>
+        <features-grid [features]="filteredFeatures"></features-grid>
 
         <pagination [totalItems]="totalRecords" 
             [pageSize]="pageSize" 

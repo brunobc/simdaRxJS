@@ -22,6 +22,7 @@ export class DataService {
         return this.http.get(this.baseUrl)
                    .map((res: Response) => {
                        let features = res.json();
+                       console.log(features);
                        return features;
                    })
                    .catch(this.handleError);

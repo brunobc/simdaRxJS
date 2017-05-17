@@ -2,7 +2,8 @@ const mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 const GeometrySchema = new Schema({
-    coordinates: { type: Array, required: true },
+    latitude: { type: String, required: true },
+    longitude: { type: String, required: true },
     type: { type: String, required: true }
 });
 
@@ -12,8 +13,8 @@ const PropertiesSchema = new Schema({
 
 const FeatureSchema = new Schema({
     type: { type: String, required: true },
-    geometry: [GeometrySchema],
-    properties: [PropertiesSchema]
+    geometry: GeometrySchema ,
+    properties: PropertiesSchema
 });
 
 module.exports = mongoose.model('Feature', FeatureSchema, 'features');

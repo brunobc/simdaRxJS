@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import { DataService } from './core/data.service';
+import { SimdaService } from './core/simda.service';
 import { IFeature } from './shared/interfaces';
 
 @Component({
@@ -7,12 +8,17 @@ import { IFeature } from './shared/interfaces';
   selector: 'app-container',
   templateUrl: 'app.component.html'
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
   years: Object[];
   features: IFeature[];
 
-  constructor(private dataService: DataService) {
+  constructor(private dataService: DataService,
+    private simdaService: SimdaService) {
     this.initYears();
+  }
+
+  ngAfterViewInit() {
+    this.simdaService.getFeatures();
   }
 
   atualizar(year) {
@@ -20,7 +26,10 @@ export class AppComponent {
   }
 
   private initYears() {
-    this.dataService.getFeatures().subscribe((features: IFeature[]) => this.features = features);
+    this.dataService.getFeatures().subscribe((features: IFeature[]) => {
+      console.log(features);
+      this.features = features;
+    });
     this.years = [];
     for (var index = 0; index < 11; index++) {
       this.years.push({

@@ -19,8 +19,11 @@ export class DataService {
     }
     
     getFeatures() : Observable<IFeature[]> {
+        console.log('getFeature data service');
         return this.http.get(this.baseUrl)
-                   .map((res: Response) => {
+                   .map((res) => {
+                               console.log('getFeature data service res: ' + res);
+
                        let features = res.json();
                        console.log(features);
                        return features;

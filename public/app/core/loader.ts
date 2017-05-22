@@ -1,4 +1,4 @@
-import { Observable } from "rxjs"
+import { Observable } from "rxjs/Rx";
 
 export function load(url: string) {
     return Observable.create(observer => {

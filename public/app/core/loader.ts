@@ -7,6 +7,8 @@ export function load(url: string) {
         let onLoad = () => {
             if (xhr.status === 200) {
                 let data = JSON.parse(xhr.responseText);
+                data.url = xhr.responseURL;
+
                 observer.next(data);
                 observer.complete();
             } else {
@@ -44,11 +46,7 @@ function retryStrategy({ attempts = 4, delay = 1000 } = {}) {
     }
 }
 
-// var lat = value.geometry.coordinates[0].substring(0, 16);
-// var lon = value.geometry.coordinates[1].substring(1, 17);
-// value.geometry.coordinates[0] = parseFloat((Base64.decode(lat)));
-// value.geometry.coordinates[1] = parseFloat((Base64.decode(lon)));
-var Base64 = {
+export var Base64 = {
     _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
     encode: function (e) {
         var t = "";

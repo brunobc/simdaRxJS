@@ -1,20 +1,16 @@
 const mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
-const GeometrySchema = new Schema({
+const listFeaturesSchema = new Schema({
     latitude: { type: String, required: true },
-    longitude: { type: String, required: true },
-    type: { type: String, required: true }
-});
-
-const PropertiesSchema = new Schema({
-    AGRAVO: { type: String, required: true }
+    longitude: { type: String, required: true }
 });
 
 const FeatureSchema = new Schema({
     type: { type: String, required: true },
-    geometry: GeometrySchema ,
-    properties: PropertiesSchema
+    features: [listFeaturesSchema],
+    week: { type: String, required: true },
+    year: { type: String, required: true },
 });
 
 module.exports = mongoose.model('Feature', FeatureSchema, 'features');

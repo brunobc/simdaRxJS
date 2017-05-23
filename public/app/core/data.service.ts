@@ -32,8 +32,10 @@ export class DataService {
     }
 
     insertFeature(feature: IFeature) : Observable<IFeature> {
-        return this.http.post(this.baseUrl, feature)
+        console.log(feature);
+        return this.http.post(this.baseUrl + '/list', feature)
                    .map((res: Response) => {
+                       console.log(res);
                        const data = res.json();
                        console.log('insertFeature status: ' + data.status);
                        return data.feature;

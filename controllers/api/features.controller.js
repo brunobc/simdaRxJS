@@ -5,7 +5,7 @@ class FeaturesController {
 
     constructor(router) {
         router.get('/features', this.getFeatures);
-        router.post('/', this.insertFeature.bind(this));
+        router.post('/features/list', this.insertFeature);
         router.put('/:id', this.updateFeature.bind(this));
         router.delete('/:id', this.deleteFeature.bind(this));
     }

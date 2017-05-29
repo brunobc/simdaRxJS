@@ -46,8 +46,8 @@ class Server {
         app.use(favicon(__dirname + '/public/images/favicon.ico'));
         app.use(express.static(__dirname + '/public'));
         app.use(morgan('dev'));
-        app.use(bodyParser.urlencoded({ extended: true }));
-        app.use(bodyParser.json());
+        app.use(bodyParser.json({limit: '50mb'}));
+        app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
         app.use(errorhandler());
         app.use(cookieParser());
         app.use(csrf({ cookie: true }));

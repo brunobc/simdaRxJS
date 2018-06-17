@@ -8,20 +8,21 @@ export class SimdaService {
     completeUrl: string;
     URL: string;
     partial: string;
-    WEEKS = 52;
+    WEEKS = 2;
 
     // http://g1.globo.com/ceara/noticia/2016/01/numero-de-casos-de-dengue-cresce-506-em-fortaleza-em-2015.html
     // Fortaleza registrou 26.172 casos em 2015 e 5.170, em 2014
-    
+    // http://tc1.sms.fortaleza.ce.gov.br/simda/chikungunya/mapaJSON?mapa=true&ano=2017&mes=&sem_pri=201701&classifin=&criterio=&evolucao=&regional=&id_bairro=&id_unidade=&key=3
 
     getListRequests() {
         this.today = new Date();
         const YEAR = this.today.getFullYear();
         this.params = {
-            ano: 2015
+            ano: 2017
         }
-        this.URL = 'http://tc1.sms.fortaleza.ce.gov.br/simda/dengue/mapaJSON?mapa=true&ano=' + this.params.ano + '&mes=&';
-        this.partial = '&classifinold=&criterio=&evolucao=&regional=&id_bairro=&id_unidade=';
+        this.URL = 'http://tc1.sms.fortaleza.ce.gov.br/simda/chikungunya/mapaJSON?mapa=true&ano=' + this.params.ano + '&mes=&';
+        this.partial = '&classifin=&criterio=&evolucao=&regional=&id_bairro=&id_unidade=';
+        // http://tc1.sms.fortaleza.ce.gov.br/simda/chikungunya/mapaJSON?mapa=true&ano=2017&mes=&sem_pri=201737&classifin=&criterio=&evolucao=&regional=&id_bairro=&id_unidade=&key=0
         // http://tc1.sms.fortaleza.ce.gov.br/simda/dengue/mapaJSON?mapa=true&ano=2016&mes=&sem_pri=201646&classifin=&criterio=&evolucao=&regional=&id_bairro=&id_unidade=&key=9
         // http://tc1.sms.fortaleza.ce.gov.br/simda/dengue/mapaJSON?mapa=true&ano=2012&mes=&sem_pri=&classifinold=&criterio=&evolucao=&regional=&id_bairro=&id_unidade=&key=3
         // http://tc1.sms.fortaleza.ce.gov.br/simda/dengue/mapaJSON?mapa=true&ano=2012&mes=&sem_pri=201202&classifinold=&criterio=&evolucao=&regional=&id_bairro=&id_unidade=&key=8
@@ -31,6 +32,8 @@ export class SimdaService {
             .from(new Array(this.WEEKS), (x, i) => i + 1)
             .map(number => number <= 99 ? ('0' + number).slice(-2) : number)
             .map(value => this.completeUrl + value + '&key=0');
+
+            console.log(listRequest);
         return listRequest;
     }
 

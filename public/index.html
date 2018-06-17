@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Angular 2">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css' />
+    <!--<link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css' />-->
     <!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />-->
     <link href="styles/styles.css" rel="stylesheet" />
 
@@ -23,6 +23,23 @@
         System.import('app').catch(function (err) { console.error(err); });
     </script>
 
+	<script type="text/javascript" src="js/libraries/rgraph/RGraph.common.core.js" ></script>
+	<script type="text/javascript" src="js/libraries/rgraph/RGraph.common.dynamic.js" ></script>
+	<script type="text/javascript" src="js/libraries/rgraph/RGraph.common.key.js" ></script>
+	<script type="text/javascript" src="js/libraries/rgraph/RGraph.line.js" ></script>
+    <script type="text/javascript" src="js/libraries/rgraph/RGraph.scatter.js" ></script>
+
+	<script type="text/javascript" src="js/utm.js"></script>
+    <script type="text/javascript" src="js/dynagraph.js"></script>
+    <script type="text/javascript" src="js/loadDB.js"></script>
+    <script type="text/javascript" src="js/initController.js"></script>
+    <script type="text/javascript" src="js/initMap.js"></script>
+    <script type="text/javascript" src="js/dynagraphFields.js"></script>
+
+    <script type="text/javascript" src="js/canvas.js"></script>
+
+    <link rel="stylesheet" href="css/app.css" />
+
 </head>
 
 <body>
@@ -32,6 +49,137 @@
         </app-container>
         <br /><br />
     </main>
+
+	<div id="app_container">
+		<div id="graph_container">
+			<div id="topbar"><img id="logo" src="images/dynagraph.png" /></div>
+			<div class="fullabsolute"><div class="map_canvas"></div></div>
+			<div class="metricsdiv">
+				<div class="metricsdivContent">
+					<button class="close">Fechar</button>
+					<div class="metricsTitle">
+						Metrics
+					</div>
+					<div class="metricsRangeInfo">
+						Network modification between
+						<span class="firstTimeMetricValue">0</span> and
+						<span class="lastTimeMetricValue">0</span>
+						<!--button class="showInterval">Show interval on map</button-->
+					</div>
+					<div class="metricsRangeLabel">Range time</div>
+					<div class="metricsRange"></div><br />
+					<div class="tabs">
+						<ul>
+							<li><a href="#tabs-1">Edges</a></li>
+							<li><a href="#tabs-2">Vertices</a></li>
+						</ul>
+						<div id="tabs-1" class="tab">
+							<div class="edgemetrictype"></div>
+
+							<canvas id="cvs-edge" class="cvsmetric visible" width="800" height="250">[No canvas support]</canvas>
+						</div>
+						<div id="tabs-2" class="tab">
+							<div class="vertexmetrictype"></div>
+							<div style="height: 5px;"></div>
+							<div id="metricasFiltros">Filter by <span class="metricsFilter"></span></div>
+							<span class="metricsReport"></span>
+							<canvas id="cvs-vertex" class="cvsmetric" width="800" height="250">[No canvas support]</canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dynamicdiv">
+				<div class="dynamicdivContent">
+					<button class="close">Close</button>
+					<div class="dynamicTitle">
+						Dynamic field modification
+					</div>
+					<div class="dynamicMessages"></div>
+					<div class="buttons">
+						<button class="accept">Accept</button>
+						<button class="cancel">Cancel</button>
+					</div>
+				</div>
+			</div>
+			<div class="startenddiv">
+				<div class="startenddivContent">
+					<button class="close">Fechar</button>
+					<div class="startendTitle">
+						Element lifetime modification
+					</div>
+					<div class="startendMessages"></div>
+					<div class="buttons">
+						<button class="accept">Accept</button>
+						<button class="cancel">Cancel</button>
+					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<div id="controlleri1">
+					<div class="col-md-8">
+						<div class="slider"></div>
+						<div class="buttons btn-group">
+							<button class="first btn btn-default" title="Seek first">
+								<span class="glyphicon glyphicon-step-backward"></span>
+							</button>
+							<button class="prev btn btn-default" title="Seek prev">
+								<span class="glyphicon glyphicon-backward"></span>
+							</button>
+							<button class="stop btn btn-default" title="Stop">
+								<span class="glyphicon glyphicon-stop"></span>
+							</button>
+							<button class="play btn btn-default" title="Play">
+								<span class="glyphicon glyphicon-play"></span>
+							</button>
+							<button class="pause btn btn-default" title="Pause">
+								<span class="glyphicon glyphicon-pause"></span>
+							</button>
+							<button class="record btn btn-default" title="Record">
+								<span class="glyphicon glyphicon-record"></span>
+							</button>
+							<button class="forward btn btn-default" title="Seek forward">
+								<span class="glyphicon glyphicon-forward"></span>
+							</button>
+							<button class="end btn btn-default" title="Seek end">
+								<span class="glyphicon glyphicon-step-forward"></span>
+							</button>
+							<button class="loadbt btn btn-default">
+								Open database
+							</button>
+							<button class="loadsave btn btn-default">
+								Download database
+							</button>
+							<button class="metrics btn btn-default">
+								<span class="glyphicon glyphicon-stats"></span>
+								Metrics
+							</button>
+							<button class="cleargroup btn btn-default">Clear</button>
+
+							<!--span class="label">Speed</span>
+							<button class="speednumerator speedselector">Speed Numerator</button>
+							<span class="labelEq">per</span>
+							<button class="speeddenominator speedselector">Speed Denominator</button -->
+						</div>
+					</div>
+					<div class="col-dm-4" style="float: left;">
+						<div class="currentTimeBox">
+							<div class="dyncaption">Current time:</div>
+							<div class="currentTime">0</div>
+						</div>
+						<div class="firstTimeBox">
+							<div class="dyncaption">Begin:</div>
+							<div class="firstTime firstTimeValue">0</div>
+						</div>
+						<div class="lastTimeBox">
+							<div class="dyncaption">End:</div>
+							<div class="lastTime lastTimeValue">0</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="options"></div>
+		</div>
+	</div>
 </body>
 
 </html>

@@ -17,8 +17,9 @@ export function load(url: string) {
         };
 
         xhr.addEventListener("load", onLoad);
-
+        
         xhr.open("POST", url);
+        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
         xhr.send();
 
         return () => {

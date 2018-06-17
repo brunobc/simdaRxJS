@@ -1,0 +1,1297 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU1OTcwOA==PNQCcJmvRznMMTY=",
+                    "PLTMuODM3OTk4NA==xiEQcQTljDGMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ3MjkxNg==RXnbGEBQstelMTY=",
+                    "eLTMuNzI1OTcxhjVBJKlbGuIgvwyMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ1NjAyZpIKcUhdqdkqbkAAMTI=",
+                    "FLTMuNzQwOTE2Nw==zmTfViwvpZnMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ3NTY2Ng==wHydrvAnuhkTMTY=",
+                    "gLTMuNzI1NzA2OA==nAXxMtVmVBXMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ3Nzg2cxOKBhnKcXNcxjEdMTI=",
+                    "MLTMuNzM2MDQ5Mg==GRjnbAFckPVMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUxNTg5Mg==GMFnJCefDdaFMTY=",
+                    "HLTMuODI2NzYyMg==grfraPpuQTvMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyODk0Ng==WFLgfLTIzWNUMTY=",
+                    "aLTMuNzY2OTE5NA==OoJonzrshfJMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU3MTQ4NA==rvzbSlLZIbbsMTY=",
+                    "CLTMuNzE3ODc3MQ==VxKVAKdceACMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU3MDg3Mw==WVwwMpxXQBGZMTY=",
+                    "zLTMuNzA4NDY2Mw==lfPWinTgwrBMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU5NTg0ryXrwbVXdJJMJgjkMTI=",
+                    "FLTMuNzg5OTg3Mw==FmjvqdQzaGIMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ5NDkyNg==BALRSkGDRggvMTY=",
+                    "xLTMuNzg5ODczNg==fpCCqYQDhgBMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU4NDU3HDnuObTVDCFQEOdIMTI=",
+                    "aLTMuNzI1NTY2NA==khSjjtWbsouMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU1OTQ2XhPvXJmiRsbOVXXDMTI=",
+                    "ELTMuNzU5NDYwNw==bBJaBHDAPiOMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU5MzgxNQ==YIqPGsGReICVMTY=",
+                    "mLTMuNzY0ODE0Ng==RLiBFkbQkwRMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU0MTQ2PYFykLLwHJPwyMYxMTI=",
+                    "JLTMuODEzOTM1LBNwxxdAKVUPfTKMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU2NTEwNQ==MQPNHflzaRDvMTY=",
+                    "TLTMuNzA2ODE4fZbnsokVjLMBbWiMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjYwNzA5NA==KXeidmNsNlTMMTY=",
+                    "BLTMuNzcxMDkwNw==viqYAWKzMJzMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjYwNTQzNA==kJmBwbGiWEIoMTY=",
+                    "tLTMuNzU5NDcxPfpPONWxPQlbugUMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU5NzkzSydSpNebDIMYCWLXMTI=",
+                    "SLTMuODEwNDg4Nw==HCtTjljtCoyMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU1OTY2Ng==GTkDmDejRqxWMTY=",
+                    "NLTMuNzYyNjYzsiJIzqDsNTlUJfRMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ3ODMzNg==QoLcTOWNWcerMTY=",
+                    "OLTMuNzI0MTA3Nw==FMKIombIPTtMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUzMDQ1qOyJyeOMJWHQPNbIMTI=",
+                    "bLTMuODM3Mzg0WmSKMJECwzBstCvMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUxODQ1Ng==YxhTZvJZgoaTMTY=",
+                    "tLTMuODM0MzI5NA==EZNJceUwJyBMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMzY5Nw==jrPAaAsMJmeVMTY=",
+                    "DLTMuODM0NTQzMg==tVWozOVwNzNMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMTYzNw==MBOsNaQurgdWMTY=",
+                    "fLTMuODM1MTIzMw==DqgjSlDujUhMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMzY5Nw==pVenQUsCcrkYMTY=",
+                    "TLTMuODM0NTQzMg==jatTsrzwiZuMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMTYzNw==YFPfjQWEfuNbMTY=",
+                    "dLTMuODM1MTIzMw==GpvVOcxKRnMMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMTYzNw==niXJjPOEKpLxMTY=",
+                    "LLTMuODM1MTIzMw==oTaxmoUeosYMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUxODY5Ng==xIHpiHMFsuuaMTY=",
+                    "hLTMuODMyMzAxkcnqnYiERBFnyFeMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUzMDM1piqdIeQMTUNrRQbyMTI=",
+                    "gLTMuODQyMzgxbZzcrUoMrPmnFcfMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyOTIzMg==pYdXzJecdMMdMTY=",
+                    "MLTMuODQ4MDg3NQ==mEeuibgNBPOMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUwNzQ5Ng==QANwlKfjFxrkMTY=",
+                    "CLTMuODAxMTUzNw==UsXBPxGAEKWMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMzExNw==VpXZUhQSmGNxMTY=",
+                    "mLTMuODE5MDAwMg==KNLDysBEKuKMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUxMzIzHwXVDNtQQYedDfdOMTI=",
+                    "kLTMuODI2MDU4Ng==dwzPBykbqrpMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ5MTQ5bAMLSHwPgWZQTKueMTI=",
+                    "wLTMuODI2NTYxYhxNKZamEaGjchZMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMTYzNw==ZezvIWUTFOWiMTY=",
+                    "LLTMuODM1MTIzMw==nIUWeCtaAtrMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyNTgzMw==ohXKJfkAmMPtMTY=",
+                    "DLTMuODQzMDA5PIjAoUAEhvCGWyTMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUzMTQ5OA==IbGUYkKautnJMTY=",
+                    "ZLTMuODM3NTQ5oYUTDQdJRgfYAtcMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUwNzQ5Ng==hvTbtosZGFWsMTY=",
+                    "TLTMuODAxMTUzNw==NONEyTGsGkqMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMzExNw==ThdPMZYzMfCjMTY=",
+                    "CLTMuODE5MDAwMg==XmxYrSFegLBMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUwNzg0usoafzCLQKQKUsZtMTI=",
+                    "SLTMuODQ0Njk0Ng==oWbNMKkjeNmMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ5NDE3wkZKVsVIXAXkkjuqMTI=",
+                    "aLTMuNzgzNzUxNQ==vccAhbyjCTSMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMTYzNw==mXcEWgpOJrACMTY=",
+                    "NLTMuODM1MTIzMw==VKlcUMXQYqFMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUwODQxhHtOJrQurwLfTobwMTI=",
+                    "kLTMuODIwMDQzMw==VouEkCtwCuqMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ1Mzg1Nw==BnsIBvHMjGfxMTY=",
+                    "DLTMuNzk4NDg5Ng==vMLOefmZMLWMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU5ODYzMw==VAaIMroRhYREMTY=",
+                    "DLTMuNzg1MzEyNw==CYjEYTVXkYyMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ3MDk0YIKNfEjrrPrYwfBrMTI=",
+                    "NLTMuNzQ5ODMwNQ==gIfELQZGbbWMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU1MzAysMmzFppSFAkMtAOrMTI=",
+                    "dLTMuODMyMjUzNQ==YxrKWoGyQwRMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUwMzM4Nw==NrJqmWXpxrofMTY=",
+                    "ELTMuODU5NjUxOA==QPPiJVAIrbSMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMzExNw==gaFJtaiMFftEMTY=",
+                    "JLTMuODE5MDAwMg==PCQaflHOUlTMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyNjgzMw==wbwqsGzhaYlhMTY=",
+                    "zLTMuODQxNTc3NQ==cQgarvqWaUyMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUxMzI2dHuLGiouZblTrVtXMTI=",
+                    "xLTMuODUwNzEzNQ==dImrvmtDPQaMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMTYzNw==zpEtYeXeZJGQMTY=",
+                    "zLTMuODM1MTIzMw==pHXuiTYnImyMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUzNjE1Ng==niYjfrODQNmQMTY=",
+                    "ZLTMuODAzMjYyTyNqhetRNKUAtDkMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU2MzIzHRrVwjJfYvWfBOGLMTI=",
+                    "MLTMuNzgwNjMzNw==OIHefVlgOTYMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU5OTY3OA==foEccMufLOkfMTY=",
+                    "dLTMuNzkxOTQ3OA==RmGOZHsihPPMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjYxMTEyNg==McoSLTbUvOoqMTY=",
+                    "HLTMuNzg4MjQ4NQ==JnNjoOyVOOCMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ2NjU5NnemjVTTomPvLlFVMTI=",
+                    "RLTMuNzk2NDMzNA==PEBlEmrJOEKMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ2MzM4Mw==oYzJPxIuSWFHMTY=",
+                    "cLTMuODYyMTcyNg==eLTIlmYQObfMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ4MTY5oWwfDAbzpebqamOEMTI=",
+                    "cLTMuODI1Nzc3OA==pOitrHdgixVMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ4NjY5NA==hzwhSEesICVBMTY=",
+                    "ELTMuODMxNDIzmKDTlnmFjxZlqDlMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU3Mjg3Ng==XWQrqgDBhdEeMTY=",
+                    "nLTMuNzA5OTIzsBlONwbEUJxqEguMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyMDYwNw==DzlrhnDjimIGMTY=",
+                    "fLTMuODM3NzY2Mg==NjWmIQZZTEcMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ4MzA0vkTJxtZuCeoGNhUqMTI=",
+                    "NLTMuODUyMzE4Mw==JfTxpBNTRccMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUzODU4Ng==yrsKEpFCfkVyMTY=",
+                    "NLTMuNzMzMTAzNQ==yrXVWWYfQgEMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjQ4NjY5NA==tIkYbQYbSefPMTY=",
+                    "ILTMuODMxNDIziLjVaScOsKwkYFKMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUwNDQwNg==iTiKcmRDKcktMTY=",
+                    "GLTMuODIzMDYynNsBJtLpaexuewAMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjYxNDA3NQ==AxyrhEWcryOyMTY=",
+                    "rLTMuNzgzMTk0ywZfvFRWbPIyDZHMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU4MzUwOA==RTkbYvNmNDRiMTY=",
+                    "MLTMuNzcwNjg5Nw==ldZArpFPnGbMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU4MzcxMsZmdUgMwYkeKaPrMTI=",
+                    "sLTMuODE2MTU0NQ==nQJuKUOAeDIMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjUyNjY3Mg==TafHqmQJByPeMTY=",
+                    "JLTMuODE1MTAxOQ==wxJeHKIOSlDMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU5NTM2NA==vBYkvSzRzcKvMTY=",
+                    "RLTMuNzQ4ODY4uLWiyKpJImyVjvNMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjU5MzgxNQ==LWjfYoHLHdcyMTY=",
+                    "OLTMuODAwMTMzNw==wEvHilSeZWuMTY="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjYwMDU2Mw==URfxoWLMUlLtMTY=",
+                    "oLTMuNzgyNjQzGoTOcwwfLThtPdhMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjYwOTg5NA==PtbwJpenpxHFMTY=",
+                    "dLTMuNzc4MzQyRtcCJYHhuqFOaVvMTI="
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "AGRAVO": "DENGUE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    null,
+                    null
+                ],
+                "AOQTMCPHBFFIQKVOXNZEUTNPQZIRZKCCGXXLXIXSFREFNQSFDLQWTBLCVLTPBOPFOJTMUZYKIXRMHHMYKXIXQJLSUCNLTFASZH": [
+                    "LTM4LjYyNDczNw==LZCVvxdSzgdRMTY=",
+                    "jLTMuNzg0MTAygdFJGWPwKgGQvAmMTI="
+                ]
+            }
+        }
+    ]
+}

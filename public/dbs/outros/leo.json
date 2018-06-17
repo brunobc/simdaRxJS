@@ -1,0 +1,375 @@
+{
+  "metadata": {
+    "vertex": {
+      "fields": {
+        "id": "id",
+        "start": "ini",
+        "end": "fim"
+      },
+      "temporalfields": {
+        "position": {
+          "dataset": "posicao",
+          "attributes": {
+            "x": "x",
+            "y": "y",
+            "zone": "zona",
+            "southHemisphere": "hemisferioSul"
+          }
+        },
+        "label": "rotulo",
+        "type": "tipo",
+        "customfields": {
+          "potencia": "Potência",
+          "clientes": "Clientes"
+        }
+      }
+    },
+    "edge": {
+      "fields": {
+        "id": "id",
+        "start": "ini",
+        "end": "fim"
+      },
+      "temporalfields": {
+        "sourcetarget": {
+          "dataset": "origemdestino",
+          "attributes": {
+            "source": "origem",
+            "target": "destino"
+          }
+        },
+        "label": "rotulo",
+        "type": "tipo"
+      }
+    }
+  },
+  "binding": {
+    "vertex": {
+      "type": {
+        "F": {
+          "label": "Foco",
+          "icon": {
+            "path": 0,
+            "fillColor": "orange",
+            "strokeColor": "red",
+            "fillOpacity": 0.3,
+            "scale": 20,
+            "strokeWeight": 2
+          }
+        },
+        "default": {
+          "label": "Default",
+          "icon": "images/icons/defaults/default.png"
+        }
+      }
+    },
+    "edge": {
+      "type": {
+        "red": {
+          "label": "Red",
+          "color": "#f00"
+        },
+        "dashed": {
+          "label": "Dashed",
+          "strokeOpacity": 0,
+          "color": "black",
+          "icons": [
+            {
+              "icon": {
+                "path": "M 0,-0.5 0,0.5",
+                "strokeWeight": 2,
+                "strokeOpacity": 1,
+                "scale": 3
+              },
+              "offset": "0",
+              "repeat": "10px"
+            }
+          ]
+        },
+        "arrows": {
+          "label": "Arrows",
+          "strokeOpacity": 0,
+          "color": "black",
+          "icons": [
+            {
+              "icon": {
+                "path": 1,
+                "fillOpacity": 1,
+                "strokeOpacity": 0
+              },
+              "repeat": "10px"
+            }
+          ]
+        },
+        "dotted": {
+          "label": "Dotted",
+          "strokeOpacity": 0,
+          "color": "black",
+          "icons": [
+            {
+              "icon": {
+                "path": "M -.5,-.5 .5,-.5, .5,.5 -.5,.5",
+                "fillOpacity": 1,
+                "strokeOpacity": 0
+              },
+              "repeat": "6px"
+            }
+          ]
+        },
+        "default": {
+          "label": "Default",
+          "color": "#000",
+          "strokeWeight": 2,
+          "strokeOpacity": 1,
+          "icons": []
+        }
+      }
+    }
+  },
+  "data": {
+    "vertex": {
+      "elements": {
+        "1": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        },
+        "2": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        },
+        "3": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        },
+        "4": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        },
+        "5": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": "2014-12-16 00:10:00.000000"
+        },
+        "6": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        }
+      },
+      "temporalfields": {
+        "posicao": {
+          "1": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "x": 552713,
+                "y": 9583920,
+                "zona": 24,
+                "hemisferioSul": true
+              }
+            }
+          ],
+          "2": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "x": 552931,
+                "y": 9584080,
+                "zona": 24,
+                "hemisferioSul": true
+              }
+            }
+          ],
+          "3": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "x": 552939,
+                "y": 9583780,
+                "zona": 24,
+                "hemisferioSul": true
+              }
+            }
+          ],
+          "4": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "x": 553219,
+                "y": 9584094,
+                "zona": 24,
+                "hemisferioSul": true
+              }
+            }
+          ],
+          "5": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "x": 553132,
+                "y": 9583829,
+                "zona": 24,
+                "hemisferioSul": true
+              }
+            }
+          ],
+          "6": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "x": 553394,
+                "y": 9583964,
+                "zona": 24,
+                "hemisferioSul": true
+              }
+            }
+          ]
+        },
+        "tipo": {
+          "1": [
+            {"time": "2014-12-16 00:00:00.000000", "data": "F"}
+          ],
+          "2": [
+            {"time": "2014-12-16 00:00:00.000000", "data": "F"}
+          ],
+          "3": [
+            {"time": "2014-12-16 00:00:00.000000", "data": "F"}
+          ],
+          "4": [
+            {"time": "2014-12-16 00:00:00.000000", "data": "F"}
+          ],
+          "5": [
+            {"time": "2014-12-16 00:00:00.000000", "data": "F"}
+          ],
+          "6": [
+            {"time": "2014-12-16 00:00:00.000000", "data": "F"}
+          ]
+        }
+      }
+    },
+    "edge": {
+      "elements": {
+        "1": {
+          "ini": "2014-12-16 00:01:00.000000",
+          "fim": null
+        },
+        "2": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        },
+        "3": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        },
+        "4": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        },
+        "5": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        },
+        "6": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        },
+        "7": {
+          "ini": "2014-12-16 00:17:00.000000",
+          "fim": null
+        },
+        "8": {
+          "ini": "2014-12-16 00:18:00.000000",
+          "fim": null
+        },
+        "9": {
+          "ini": "2014-12-16 00:00:00.000000",
+          "fim": null
+        }
+      },
+      "temporalfields": {
+        "tipo": {},
+        "origemdestino": {
+          "1": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "origem": 1,
+                "destino": 2
+              }
+            }
+          ],
+          "2": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "origem": 1,
+                "destino": 3
+              }
+            }
+          ],
+          "3": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "origem": 2,
+                "destino": 3
+              }
+            }
+          ],
+          "4": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "origem": 2,
+                "destino": 4
+              }
+            }
+          ],
+          "5": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "origem": 3,
+                "destino": 2
+              }
+            }
+          ],
+          "6": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "origem": 3,
+                "destino": 5
+              }
+            }
+          ],
+          "7": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "origem": 4,
+                "destino": 5
+              }
+            }
+          ],
+          "8": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "origem": 4,
+                "destino": 6
+              }
+            }
+          ],
+          "9": [
+            {
+              "time": "2014-12-16 00:00:00.000000",
+              "data": {
+                "origem": 5,
+                "destino": 6
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -15,14 +15,14 @@ export class DataService {
     baseUrl: string = '/api/features';
 
     constructor(private http: Http) {
-        
+
     }
 
     getJSON(): Observable<any> {
-        return this.http.get("../dbs/2018/chikungunya/24.json")
+        return this.http.get("../dbs/2019/chikungunya/25.json")
                         .map((res:any) => res.json())
                         .catch(this.handleError);
-                        
+
     }
 
     getFeatures(): Observable<IFeature[]> {
@@ -87,7 +87,7 @@ export class DataService {
             .catch(this.handleError);
     }
 
-    //Not used but could be called to pass "options" (3rd parameter) to 
+    //Not used but could be called to pass "options" (3rd parameter) to
     //appropriate POST/PUT/DELETE calls made with http
     getRequestOptions() {
         const csrfToken = ''; //would retrieve from cookie or from page

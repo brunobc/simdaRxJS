@@ -1,0 +1,22 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+       {
+          "type":"Feature",
+          "properties":{
+             "AGRAVO":"DENGUE"
+          },
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                null,
+                null
+             ],
+             "YZXDGBDNHIJAZFRGVSDWADUAWCDCYFXSFLHJDGDCIXSFTBQRQRMEPWLVTXWCFLZUAXJISVAPSVXULRPYVHBQKEXFJTHKWA":[
+                "LTM4LjUzNzI2AVkLuVgFPIbBPwzuMTI=",
+                "fLTMuNzcwMDQ5HpkFpqXOcekIbisMTI="
+             ]
+          }
+       }
+    ]
+ }

@@ -54,15 +54,15 @@ export class AppComponent implements AfterViewInit {
     // this.iFeature.features.map( function(value) {
     //   var lat =   value.geometry.gg[0].substring(keyy,keyy+  parseInt(Base64.decode(value.geometry.gg[0].substring(28,32))) )
     //   var lon =   value.geometry.gg[1].substring(keyy+1,keyy+1+ parseInt(Base64.decode(value.geometry.gg[1].substring(28,32))) )
-         
+
     //    value.geometry.coordinates[0]  = parseFloat((Base64.decode(lat)));
     //    value.geometry.coordinates[1]  = parseFloat((Base64.decode(lon)));
     //   });
     this.iFeature.features =
       this.iFeature.features
         .map(function (value) {
-          const lon = value.geometry[coordinates][1].substring(0, 16);
-          const lat = value.geometry[coordinates][0].substring(1, 17);
+          const lon = value.geometry[coordinates][0].substring(0, 16);
+          const lat = value.geometry[coordinates][1].substring(1, 17);
 
           // console.log(parseFloat(Base64.decode(value.geometry[coordinates][1].substring(0, 16))));
           // console.log(parseFloat(Base64.decode(value.geometry[coordinates][1].substring(1, 17))));
@@ -75,7 +75,8 @@ export class AppComponent implements AfterViewInit {
           };
         });
     this.iFeature.type = 'CHIKUNGUNYA';
-    const url = 'http://tc1.sms.fortaleza.ce.gov.br/simda/chikungunya/mapaJSON?mapa=true&ano=2018&mes=&sem_pri=201824&classifin=&criterio=&evolucao=&regional=&id_bairro=&id_unidade=&key=0&anomapa=';
+    const week = '29';
+    const url = `http://tc1.sms.fortaleza.ce.gov.br/simda/chikungunya/mapaJSON?mapa=true&ano=2019&mes=&sem_pri=2019${week}&classifin=&criterio=&evolucao=&regional=&id_bairro=&id_unidade=&key=0&anomapa=`;
     const index = url.indexOf('sem_pri=');
     this.iFeature.year = url.substring(index + 8, index + 12);
     this.iFeature.week = url.substring(index + 12, index + 14);
